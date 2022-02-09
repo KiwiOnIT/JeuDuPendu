@@ -12,7 +12,7 @@ Ce jeu reprend le fonctionnement de base du célèbre jeu du pendu (hangman).
 - Choix de la difficultée
 - Refonte console
 
-## Tech
+## Technologies utilisées
 
 Pour créer ce projet nous avons utilisé.
 
