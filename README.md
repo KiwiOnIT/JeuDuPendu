@@ -1,20 +1,40 @@
-# JeuDuPendu
+# Jeu du pendu
+#### Projet rapide et fun juste pour s'amuser
 
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)]()
+[![VsCode](https://img.shields.io/badge/vsCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)]()
 
-Voici le jeu du pendu codé en c++ par LysnakeIT et moi même
+Ce jeu reprend le fonctionnement de base du célèbre jeu du pendu (hangman).
 
+## Ajouts futures
 
-Pour lancer le jeu du pendu il suffit d'ouvir l'emplacment du fichier dans un terminal
+- Version graphique
+- Choix de la difficultée
+- Refonte console
 
+## Tech
 
--Utilisé cette commande pour compiler (il faut [MinGW](https://www.mingw-w64.org/downloads/))
+Pour créer ce projet nous avons utilisé.
 
-```"g++ -g -o JeuDuPendu  JeuDuPendu.cpp"```
+- [C++](https://www.mingw-w64.org/downloads/) - Télécharger MinGW
+- [VsCode](https://code.visualstudio.com/) - un super éditeur de code
 
--Et après toujours dans l'emplacement du fichier il faut :
+## Installation
 
-Sur windows :
-Ouvrir le .exe
+Pour lancer sur windows le projet a besoin de [MinGW](https://www.mingw-w64.org/downloads/).
 
-Sur linux:
-Faire ```"./JeuDuPendu"``` dans un terminal
+Télécharge le projet et allez dans le dossier. Ouvrez un terminal et faites :
+
+#### Linux
+```sh
+g++ -g -o JeuDuPendu JeuDuPendu.cpp
+./JeuDuPendu
+```
+
+#### Windows
+
+```sh
+g++ JeuDuPendu.cpp
+```
+Ensuite lancer le .exe se trouvant dans le dossier.
+
